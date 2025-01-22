@@ -1,0 +1,16 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  background: rgba(34, 34, 34, 0.1); /* Transparent background */
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Add blur effect for glassmorphism */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.navbar h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1.5px;
+}

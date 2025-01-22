@@ -1,0 +1,49 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllHN8ttr6R8M6oIKoPBiyIjLRLZVkAS2MqA&s') no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  
+}
+
+.container {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 800px;
+  display: flex; /* Added */
+  flex-direction: column; /* Ensures vertical alignment */
+  align-items: center; /* Centers items horizontally */
+  justify-content: center; /* Centers items vertically */
+  min-height: 100vh; /* Ensures the container spans the full viewport height */
+}
+
+.search-bar-container {
+  display: flex; /* Ensures proper alignment for child elements */
+  justify-content: center; /* Centers the search bar horizontally */
+  width: 70%; /* Ensures the container spans the available space */
+}
+
+.search-bar {
+  width: 70%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+}
+
+.search-bar::placeholder {
+  color: #bbb;
+}
+
+.search-bar:focus {
+  border-color: #555;
+}

@@ -1,0 +1,31 @@
+.date-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.month-picker, .day-picker, .fetch-button {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.month-picker:focus, .day-picker:focus, .fetch-button:focus {
+  border-color: #555;
+}
+.fetch-button {
+  background-color: #e50914;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.fetch-button:hover {
+  background-color: #b20610;
+  transform: translateY(-2px);
+}
+.stories-heading {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+}
